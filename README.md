@@ -1,5 +1,4 @@
-# conjoint_embedded_data
-Embedded data for conjoint experimental designs
+# Embedded data for conjoint experimental designs
 
 This is an addition to the conjoint experimental design example provided by Thomas Leeper [here](https://github.com/leeper/conjoint-example). 
 
