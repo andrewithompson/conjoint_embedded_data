@@ -12,3 +12,17 @@ Enter this in the ‘Set Embedded Data’ section of the Survey Flow:
  ![example](embedded_data.png)
 
 
+# Analyze
+
+An alternative to separating the single character variable in your output data into separate variables is using extract() through dplyr in R.
+
+An example of this with two attributes from the Leeper example is: 
+
+```R
+data %>% 
+  extract(attribute_column, c("Sex", "Occupation")
+          regex = "(^Male$|^Female$)|(^State Governor$|^U.S. Senator$|^Member of Congress$|^CEO$)",
+          remove = FALSE)
+```
+
+The regular expression (regex = ) must be a single line.
