@@ -8,7 +8,7 @@ Following this
 Qualtrics.SurveyEngine.setEmbeddedData('traits1a', traits_a.join("|"));
 Qualtrics.SurveyEngine.setEmbeddedData('traits1b', traits_b.join("|"));
 ```
-Enter this in the ‘embedded data’ tab in Qualtrics:
+Enter this in the ‘Set Embedded Data’ section of the Survey Flow:
  ![example](embedded_data.png)
 
 
