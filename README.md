@@ -1,8 +1,7 @@
 # Embedded data for conjoint experimental designs in Qualtrics
 
-This is an addition to the conjoint experimental design example provided by Thomas Leeper [here](https://github.com/leeper/conjoint-example). 
+This is an addition to the conjoint experimental design example provided by Thomas Leeper [here](https://github.com/leeper/conjoint-example). It is only meant to clarify exactly how to set up embedded data on Qualtrics. 
 
-It is only meant to clarify exactly how to set up embedded data on Qualtrics. 
 Following this 
 ```js
 Qualtrics.SurveyEngine.setEmbeddedData('traits1a', traits_a.join("|"));
